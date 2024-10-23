@@ -1,8 +1,9 @@
 # EX12 - ELGAMAL ALGORITHM
 ## AIM :
 To encrypt and decrypt a message using the ElGamal encryption algorithm.
-
-## DESIGN STEPS :
+## THEORM :
+The ElGamal algorithm is an asymmetric key encryption system used for secure communication. It is based on the Diffie-Hellman key exchange and operates over finite fields. It involves two keys: a public key for encryption and a private key for decryption, ensuring data confidentiality through complex mathematical operations.
+## ALGORITHM :
 ### STEP 1 : 
 Choose a large prime number p and a generator g of the multiplicative group of integers modulo p.
 
