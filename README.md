@@ -1,21 +1,21 @@
-# EX12 - Implement-Elgamal-Encryption-and-Decryption
+# EX12 - ELGAMAL ALGORITHM
 ## AIM :
 To encrypt and decrypt a message using the ElGamal encryption algorithm.
 
 ## DESIGN STEPS :
-### Step 1 : 
+### STEP 1 : 
 Choose a large prime number p and a generator g of the multiplicative group of integers modulo p.
 
-### Step 2 : 
+### STEP 2 : 
 Alice chooses a private key and computes her public key as
 public_key = g^private_key mod p.
-### Step 3 : 
+### STEP 3 : 
 To encrypt a message, Bob chooses a random number k and computes a ciphertext pair (c1, c2).
 
-### Step 4 : 
+### STEP 4 : 
 To decrypt the message, Alice uses her private key and computes the original message.
 
-### Step 5 : 
+### STEP 5 : 
 The decrypted message is verified to be the same as the original.
 
 ## PROGRAM :
@@ -67,4 +67,4 @@ int main()
 
 
 ## RESULT :
-The program for ElGamal encryption and decryption was executed successfully. Alice and Bob exchanged an encrypted message and verified that the decrypted message matched the original message.
+The program to implemnt ElGamal encryption and decryption was executed successfully.
